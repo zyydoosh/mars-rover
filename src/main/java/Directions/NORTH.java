@@ -1,7 +1,7 @@
 package Directions;
 
-import java.util.Stack;
 
+import java.util.Stack;
 import com.penta.marsrover.Position;
 
 public class NORTH implements Heading {

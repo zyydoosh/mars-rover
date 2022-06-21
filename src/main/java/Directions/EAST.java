@@ -2,9 +2,7 @@ package Directions;
 
 
 import com.penta.marsrover.Position;
-
 import java.util.Stack;
-import java.util.concurrent.atomic.AtomicReference;
 
 public class EAST implements Heading {
     @Override

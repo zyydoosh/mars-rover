@@ -1,8 +1,5 @@
 package com.penta.marsrover;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import org.springframework.lang.NonNull;
 import org.springframework.lang.Nullable;
 
 import java.util.List;

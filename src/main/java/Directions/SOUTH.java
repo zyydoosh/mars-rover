@@ -2,7 +2,6 @@ package Directions;
 
 
 import com.penta.marsrover.Position;
-
 import java.util.Stack;
 
 public class SOUTH implements Heading {

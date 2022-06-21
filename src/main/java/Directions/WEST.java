@@ -1,8 +1,8 @@
 package Directions;
 
+
 import com.penta.marsrover.Position;
 import java.util.Stack;
-import java.util.Map;
 
 public class WEST implements Heading {
     @Override

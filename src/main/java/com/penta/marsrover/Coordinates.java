@@ -4,10 +4,9 @@ package com.penta.marsrover;
 import java.util.Objects;
 
 public class Coordinates {
+    public Long x;
 
-    public Integer x;
-
-    public Integer y;
+    public Long y;
 
     public Coordinates() {
     }
@@ -16,7 +15,7 @@ public class Coordinates {
         this(coordinates.x, coordinates.y);
     }
 
-    public Coordinates(Integer x, Integer y) {
+    public Coordinates(Long x, Long y) {
         this.x = x;
         this.y = y;
     }

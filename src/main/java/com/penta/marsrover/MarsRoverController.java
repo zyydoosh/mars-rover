@@ -2,10 +2,7 @@ package com.penta.marsrover;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-import java.util.HashMap;
-import java.util.Map;
 
 @RestController
 public class MarsRoverController {
@@ -21,6 +18,5 @@ public class MarsRoverController {
             ErrorEntity error = new ErrorEntity("Bad request");
             return new ResponseEntity<>(error, HttpStatus.BAD_REQUEST);
         }
-
     }
 }
